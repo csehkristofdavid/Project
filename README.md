@@ -7,3 +7,27 @@ A projectem egy állatkert medzselős,  tycoon játék lesz, amit Unity-ben fogo
 
 Első hét
 --------
+Világ elkészítése, Tile class létrehezása. Alapvetően csak üres Tile-okat hasznalunk, ezek értékét, Enum-ját változtatva lehet majd építeni.
+
+Második hét
+-----------
+Egyenlőre csak üres és nem üres mezők létrehozása random. Elemző függvények készítése. Tesztelések
+
+Harmadik hét
+------------
+Kamera mozgás ekészítése, zoomolás, és alap építés egér gombra.
+
+Negyedik hét
+------------
+Grafikák elkészítése.
+
+Ötödik hét
+----------
+Bolt és utak építése. Hiba kezelések.
+Hatodik - Hetedik hét
+---------------------
+Ketrecek építhetősége, hibak javítása. Állatok ketrecbe helyezése.
+
+Nyolcadik hét
+-------------
+Pénz rendszer elkészítése, bolt rendszer és pénz termelés elkészítése. Hibák javítása.
