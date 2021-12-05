@@ -31,3 +31,7 @@ Ketrecek építhetősége, hibak javítása. Állatok ketrecbe helyezése.
 Nyolcadik hét
 -------------
 Pénz rendszer elkészítése, bolt rendszer és pénz termelés elkészítése. Hibák javítása.
+
+Kilencedik hét
+--------------
+Kód kommentelése és stilizálása. Build és Installer elkészítése.
