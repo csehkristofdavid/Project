@@ -1,8 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - GameWorld
+    - Menu
     - Mouse
+    - World
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
@@ -17,6 +18,16 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -36,10 +47,32 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11630}
+      Script: {instanceID: 11266}
     - Class: 114
-      Script: {instanceID: 12204}
+      Script: {instanceID: 11556}
+    - Class: 114
+      Script: {instanceID: 11610}
+    - Class: 114
+      Script: {instanceID: 11806}
+    - Class: 114
+      Script: {instanceID: 11814}
+    - Class: 114
+      Script: {instanceID: 12284}
+    - Class: 114
+      Script: {instanceID: 12852}
+    - Class: 114
+      Script: {instanceID: 12988}
+    - Class: 114
+      Script: {instanceID: 13134}
+    - Class: 114
+      Script: {instanceID: 13752}
+    - Class: 114
+      Script: {instanceID: 14366}
+    - Class: 114
+      Script: {instanceID: 14464}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -48,6 +81,61 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/main_menu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11266}
+    - Class: 114
+      Script: {instanceID: 11556}
+    - Class: 114
+      Script: {instanceID: 11610}
+    - Class: 114
+      Script: {instanceID: 12284}
+    - Class: 114
+      Script: {instanceID: 12988}
+    - Class: 114
+      Script: {instanceID: 13752}
+    - Class: 114
+      Script: {instanceID: 14366}
+    - Class: 114
+      Script: {instanceID: 14464}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -74,6 +162,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Save
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -130,12 +224,6 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
-      Hash: f65c37ab2be506adf7e8455038f85a98
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Mouse
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -188,6 +276,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 91c26578009fdf0a33ca26d6703ae69b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Mouse
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
@@ -248,12 +342,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
-  - hash:
-      serializedVersion: 2
-      Hash: 9cd0a7c5b21a11ec710fba88f37f0623
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameWorld
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -322,6 +410,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
+      Hash: 3387505884cd2abb67585f926f55d83d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: World
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -344,6 +438,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 6617662dfaa5219d831814853ae04847
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Money
   - hash:
       serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
@@ -538,11 +638,18 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Menu
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
   platform: 5
   scenePathNames:
+  - Assets/main_menu.unity
   - Assets/Scenes/SampleScene.unity
   playerPath: D:/unity/zoo/zoo.exe
