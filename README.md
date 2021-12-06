@@ -24,6 +24,7 @@ Grafikák elkészítése.
 Ötödik hét
 ----------
 Bolt és utak építése. Hiba kezelések.
+
 Hatodik - Hetedik hét
 ---------------------
 Ketrecek építhetősége, hibak javítása. Állatok ketrecbe helyezése.
